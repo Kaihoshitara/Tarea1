@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class= "container">
+        <div class="col s12">
+            <div class="card" id="main">
+                <div class="card-content">
+                    <span class="card-title">Task List</span>
+                    <div class="row">
+                        <form id="task-form">
+                            <div class="input-field col s12">
+                                <input type="text" name="task" id="task" value=""/>
+                                <label for="task">New task</label>
+                            </div>
+                            <input type="submit" value="Add Task" class="btn">
+                        </form>
+                    </div>
+                    <div class="card-action"></div>
+                    <h5 id="task-title">Tasks</h5>
+                    <ul class="collection">
+                        <!-- <li class="collection-item">List item 1
+                            <a href="#" class="delete-item secondary-content">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </li>
+                        <li class="collection-item">List item 2
+                                <a href="#" class="delete-item secondary-content">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </li>
+                            <li class="collection-item">List item 3
+                                    <a href="#" class="delete-item secondary-content">
+                                        <i class="fa fa-times"></i>
+                                    </a>
+                                </li>
+                                <li class="collection-item">List item 4
+                                        <a href="#" class="delete-item secondary-content">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                    <li class="collection-item">List item 5
+                                        <a href="#" class="delete-item secondary-content">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li> -->
+                    </ul>
+                    <a href="" class="clear-tasks btn black">Clear task</a>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="app.js"></script>
+</body>
+</html>
